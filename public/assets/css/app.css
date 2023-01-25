@@ -1,0 +1,926 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav .logo{
+    width: 30%;
+}
+
+.nav .logo img{
+    width: 100%;
+}
+
+.nav .content-normal{
+    width: 70%;
+    margin-left: 2%;
+}
+
+.nav .content-normal a{
+    font-family: montserrat, sans-serif;
+    font-size: 12.8px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #20346A;
+}
+
+.nav .content-normal a:hover{
+    border-bottom: 4px solid #20346A;
+}
+
+.nav .content-normal .navbar-nav .active{
+    border-bottom: 4px solid #20346A;
+}
+
+.nav .content-normal .navbar-nav .dropbtn {
+    border: none;
+}
+
+.nav .content-normal .navbar-nav .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav .content-normal .navbar-nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.nav .content-normal .navbar-nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav .content-normal .navbar-nav .dropdown-content a:hover {background-color: #20346A; color: #fff; border-bottom: none !important;}
+
+.nav .content-normal .navbar-nav .dropdown:hover .dropdown-content {display: block;}
+
+.nav .content-normal .navbar-nav .dropdown:hover .dropbtn {background-color: #fff;}
+
+/* home */
+
+.container-home .satu{
+    display: flex;
+}
+
+.container-home .satu img {
+    display: block;
+    width: 100%;
+    height: 85vh;
+    /* object-fit: cover; */
+}
+
+.container-home .satu .kiri{
+    margin: 5% 5%;
+    width: 50%;
+}
+
+.container-home .satu .kiri .title{
+
+}
+
+.container-home .satu .kiri .body{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container-home .satu .kiri .btn-dark{
+    background-color: #20346A;
+    height: 50px;
+    width: 198.125px;
+    margin: 0 0 8px 0;
+    padding: 12px 35px 12px 35px;
+    box-sizing: border-box;
+    border-top-left-radius: 25.6px;
+    border-top-right-radius: 25.6px;
+    border-bottom-left-radius: 25.6px;
+    border-bottom-right-radius: 25.6px;
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.container-home .satu .kiri h1{
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #20346A;
+}
+
+.container-home .satu .kanan{
+    width: 50%;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.container-home .dua .kiri .body .galery .card .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(32, 52, 106, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.container-home .dua{
+    margin: 5% 5%;
+}
+
+.container-home .dua .kiri .card img{
+    width: 100%;
+}
+
+.container-home .dua .kiri .title h1{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .dua .kiri .title .line{
+    width: 30%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+}
+
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container-home .dua .kiri .body .galery .card:hover .overlay {
+    transform: scale(1);
+}
+
+.container-home .dua .kiri .body .galery .card .text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin-top: 24%;
+}
+
+.container-home .dua .kiri .body .galery .card .line {
+    width: 40px;
+    height: 3px;
+    background-color: yellow;
+    margin-left: 45%;
+}
+
+.container-home .dua .btn-dark{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    margin: 0 0 8px 0;
+    padding: 12px 35px 12px 35px;
+    box-sizing: border-box;
+    border-top-left-radius: 25.6px;
+    border-top-right-radius: 25.6px;
+    border-bottom-left-radius: 25.6px;
+    border-bottom-right-radius: 25.6px;
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #20346A;
+}
+
+.container-home .dua .btn-dark:hover{
+    background-color: #20346A;
+    color: #fff;
+}
+
+.container-home .tiga{
+    margin: 5% 5%;
+}
+
+.container-home .tiga .title h1{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .tiga .title .line{
+    width: 10%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+}
+
+.container-home .tiga .body .card img{
+    width: 100%;
+}
+
+.container-home .tiga .body .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1.7) 100%);
+}
+
+.container-home .tiga .body .card .text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 55% 15px;
+    color: #fff;
+}
+
+.container-home .tiga .body .card .text .tanggal{
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: left;
+    word-spacing: 0px;
+}
+
+.container-home .tiga .body .card .text a{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19.5px;
+    text-decoration: none;
+    text-align: left;
+    word-spacing: 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-home .empat{
+    display: flex;
+    margin: 5% 5%;
+}
+
+.container-home .empat .kiri{
+    width: 50%;
+}
+
+.container-home .empat .kiri .title h1{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kiri .title .line{
+    width: 20%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+}
+
+.container-home .empat .kiri .body .card img{
+    height: 450px;
+}
+
+.container-home .empat .kanan .body .card img{
+    height: 450px;
+}
+
+.container-home .empat .kiri .body .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1.7) 100%);
+}
+
+.container-home .empat .kiri .body .card .overlay .desc{
+    margin: 60% 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .empat .kiri .body .card .overlay .desc .status{
+    font-size: 1.3vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kiri .body .card .overlay .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kiri .body .sub {
+    display: flex;
+    background-color: #eeeeee;
+}
+.container-home .empat .kiri .body .sub .img {
+    width: 50%;
+}
+
+.container-home .empat .kiri .body .sub .desc {
+    width: 50%;
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .empat .kiri .body .sub .desc .status{
+    font-size: 1.3vw;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kiri .body .sub .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kiri .body .sub .img img {
+    width: 100%;
+}
+
+.container-home .empat .kanan{
+    width: 50%;
+}
+
+.container-home .empat .kanan .title{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .empat .kanan .title h1{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kanan .title .line{
+    width: 20%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+    align-self: flex-end;
+}
+
+.container-home .empat .kanan .body .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1.7) 100%);
+}
+
+.container-home .empat .kanan .body .card .overlay .desc{
+    margin: 60% 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .empat .kanan .body .card .overlay .desc .status{
+    font-size: 1.3vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kanan .body .card .overlay .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container-home .empat .kanan .body .sub {
+    display: flex;
+    background-color: #eeeeee;
+}
+.container-home .empat .kanan .body .sub .img {
+    width: 50%;
+}
+
+.container-home .empat .kanan .body .sub .desc {
+    width: 50%;
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container-home .empat .kanan .body .sub .desc .status{
+    font-size: 1.3vw;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .empat .kanan .body .sub .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #20346A;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container-home .empat .kanan .body .sub .img img {
+    width: 100%;
+}
+
+.container-home .lima{
+    display: flex;
+    margin: 5% 5%;
+}
+
+.container-home .lima .kiri{
+    width: 50%;
+}
+
+.container-home .lima .kiri .title h1{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kiri .title .line{
+    width: 15%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+}
+
+.container-home .lima .kiri .body .card img{
+    height: 450px;
+}
+
+.container-home .lima .kanan .body .card img{
+    height: 450px;
+}
+
+.container-home .lima .kiri .body .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1.7) 100%);
+}
+
+.container-home .lima .kiri .body .card .overlay .desc{
+    margin: 60% 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .lima .kiri .body .card .overlay .desc .status{
+    font-size: 1.3vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kiri .body .card .overlay .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kiri .body .sub {
+    display: flex;
+    background-color: #eeeeee;
+}
+.container-home .lima .kiri .body .sub .img {
+    width: 50%;
+}
+
+.container-home .lima .kiri .body .sub .desc {
+    width: 50%;
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .lima .kiri .body .sub .desc .status{
+    font-size: 1.3vw;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kiri .body .sub .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kiri .body .sub .img img {
+    width: 100%;
+}
+
+.container-home .lima .kanan{
+    width: 50%;
+}
+
+.container-home .lima .kanan .title{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .lima .kanan .title h1{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kanan .title .line{
+    width: 10%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+    align-self: flex-end;
+}
+
+.container-home .lima .kanan .body .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1.7) 100%);
+}
+
+.container-home .lima .kanan .body .card .overlay .desc{
+    margin: 60% 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .lima .kanan .body .card .overlay .desc .status{
+    font-size: 1.3vw;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kanan .body .card .overlay .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container-home .lima .kanan .body .sub {
+    display: flex;
+    background-color: #eeeeee;
+}
+.container-home .lima .kanan .body .sub .img {
+    width: 50%;
+}
+
+.container-home .lima .kanan .body .sub .desc {
+    width: 50%;
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container-home .lima .kanan .body .sub .desc .status{
+    font-size: 1.3vw;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .lima .kanan .body .sub .desc .title{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #20346A;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.container-home .lima .kanan .body .sub .img img {
+    width: 100%;
+}
+
+.container-home .delapan{
+    overflow: hidden;
+    margin: 5% 5%;
+}
+
+.container-home .delapan .body .footer-slide .kiri .name{
+    height: 28px;
+    width: 180.234px;
+    font-family: Montserrat;
+    font-size: 0.6em;
+    font-weight: 700;
+    line-height: 28px;
+    text-decoration: none solid rgb(0, 51, 102);
+    text-align: left;
+    background-color:  #F0CA30
+}
+
+.container-home .delapan .title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-home .delapan .title h1{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-home .delapan .title .line{
+    width: 10%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin: 5% 5%;
+}
+.sidebar a{
+    font-size: 3vw;
+}
+
+.sidebar .fa-whatsapp{
+    color: green;
+}
+
+.sidebar .fa-instagram{
+    color: pink;
+}
+
+.container-vsm{
+    display: flex;
+}
+
+.container-vsm .title{
+    margin: 5% 5%;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #20346A;
+}
+
+.container-vsm .body{
+    margin: 5% 5%;
+}
+
+.container-stg{
+    display: flex;
+}
+
+.container-stg .one{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-stg .title{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #20346A;
+    margin: 5% 5%;
+}
+
+.container-stg .body{
+    margin: 5% 5%;
+}
+
+.container-vas{
+    display: flex;
+}
+
+.container-vas .one{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-vas .title{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #20346A;
+    margin: 5% 5%;
+}
+
+.container-vas .body{
+    margin: 5% 5%;
+}
+
+.container-vas .body a{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    text-decoration: none;
+    text-align: left;
+    text-transform: uppercase;
+    color: #20346A;
+}
+
+.container-vas .body a:hover{
+    text-decoration: underline solid rgb(16, 123, 182);
+}
+
+.container-jurusan{
+    display: flex;
+}
+
+.container-jurusan .one{
+    margin: 5% 5%;
+}
+
+.container-jurusan .one .title h1{
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    color: #20346A;
+}
+
+.container-jurusan .one .gambar img{
+    width: 100%;
+}
+
+.container-galery{
+    margin: 5% 5%;
+}
+
+.container-galery .dua .kiri .body .galery .card .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(32, 52, 106, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+}
+
+.container-galery .dua .kiri .title .line{
+    width: 30%;
+    height: 5px;
+    background-color: #20346A;
+    margin-bottom: 20px;
+}
+
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container-galery .dua .kiri .body .galery .card:hover .overlay {
+    transform: scale(1);
+}
+
+.container-galery .dua .kiri .body .galery .card .text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin-top: 24%;
+}
+
+.container-galery .dua .kiri .body .galery .card .line {
+    width: 40px;
+    height: 3px;
+    background-color: yellow;
+    margin-left: 45%;
+}
+
+.container-galery .dua .btn-dark{
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    margin: 0 0 8px 0;
+    padding: 12px 35px 12px 35px;
+    box-sizing: border-box;
+    border-top-left-radius: 25.6px;
+    border-top-right-radius: 25.6px;
+    border-bottom-left-radius: 25.6px;
+    border-bottom-right-radius: 25.6px;
+    font-family: montserrat, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #20346A;
+}
+
+.container-galery .dua .btn-dark:hover{
+    background-color: #20346A;
+    color: #fff;
+}
+
+.container-ks{
+    display: flex;
+    margin: 5% 5%;
+}
+
+.container-ks .one .title{
+    font-family: Montserrat;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 40px;
+    color: #20346A;
+    text-transform: uppercase;
+}
+
+.container-ks .one .body .card .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(32, 52, 106, 0.8);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.container-ks .one .body .card:hover .overlay {
+    height: 100%;
+}
+
+.container-ks .one .body .text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    margin-top: 30%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-ks .one .body .text a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-pd{
+    display: flex;
+}
+
+.container-pd .one{
+    margin: 5% 5%;
+}
+
+.container-pd .one .body img{
+    width: 80%;
+}
+
+.container-pengumuman{
+    margin: 5% 5%;
+}
+
+.container-pengumuman .body .link_peng{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-pengumuman .body .card-body{
+    background-color: #20346A;
+}
+
+footer{
+    height: 80vh;
+    background-color: #20346A;
+}
