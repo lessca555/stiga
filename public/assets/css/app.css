@@ -100,6 +100,10 @@ nav{
     padding-bottom: 10px;
 }
 
+.container-home .satu .kiri .body{
+    font-size: 1.5vw;
+}
+
 .container-home .satu .kiri .btn-dark{
     background-color: #20346A;
     height: 50px;
