@@ -27,7 +27,7 @@ nav{
 
 .nav .content-normal a{
     font-family: montserrat, sans-serif;
-    font-size: 12.8px;
+    font-size: 1vw;
     font-weight: 800;
     text-transform: uppercase;
     color: #20346A;
@@ -91,8 +91,8 @@ nav{
     width: 50%;
 }
 
-.container-home .satu .kiri .title{
-
+.container-home .satu .kiri .title h1{
+    font-size: 3vw;
 }
 
 .container-home .satu .kiri .body{
