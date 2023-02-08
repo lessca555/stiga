@@ -4,11 +4,8 @@ body{
 }
 
 nav{
-    padding-bottom: 10px;
-    background-color: #fff;
-}
 
-.nav{
+    background-color: #fff;
     display: flex;
 }
 
@@ -18,6 +15,10 @@ nav{
 
 .nav .logo img{
     width: 100%;
+}
+
+.content-resp{
+    display: none;
 }
 
 .nav .content-normal{
@@ -106,8 +107,7 @@ nav{
 
 .container-home .satu .kiri .btn-dark{
     background-color: #20346A;
-    height: 50px;
-    width: 198.125px;
+    width: 20vw;
     margin: 0 0 8px 0;
     padding: 12px 35px 12px 35px;
     box-sizing: border-box;
@@ -118,6 +118,7 @@ nav{
     font-family: montserrat, sans-serif;
     font-weight: 800;
     text-transform: uppercase;
+    font-size: 1.3vw;
 }
 
 .container-home .satu .kiri h1{
@@ -684,6 +685,11 @@ nav{
     width: 10%;
     margin: 5% 5%;
 }
+
+.sidebar p{
+    font-size: 1vw;
+}
+
 .sidebar a{
     font-size: 3vw;
 }
@@ -700,7 +706,7 @@ nav{
     display: flex;
 }
 
-.container-vsm .title{
+.container-vsm .title h1{
     margin: 5% 5%;
     font-family: Montserrat;
     font-size: 30px;
@@ -742,9 +748,9 @@ nav{
     flex-direction: column;
 }
 
-.container-vas .title{
+.container-vas .title h1{
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 700;
     color: #20346A;
     margin: 5% 5%;
@@ -927,4 +933,122 @@ nav{
 footer{
     height: 80vh;
     background-color: #20346A;
+}
+
+button.navbar-toggler:focus{
+    outline: none;
+    border: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    .content-normal{
+        display: none;
+    }
+
+    .content-resp{
+        display: block !important;
+        background-color: #20346A;
+        margin-top: 10px;
+    }
+
+    .content-resp .nav-item a{
+        color: #fff !important;
+    }
+
+    .content-resp .nav-item a:hover{
+        background-color: #fff;
+        color: #20346A !important;
+    }
+
+    .content-resp .navbar-nav .nav-item .activeResp{
+        width: 100%;
+        background-color: #fff;
+        color: #20346A !important;
+    }
+
+    .content-resp .navbar-nav{
+        text-align: center;
+    }
+
+    .content-resp .navbar-nav a{
+        color: #20346A;
+        font-size: 5vw;
+        text-decoration: none;
+    }
+
+    .container-home .satu{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-home .satu .kiri{
+        width: 100%;
+        margin: auto;
+        padding: 5% 5%;
+    }
+
+    .container-home .satu .kanan{
+        width: 100%;
+    }
+
+    .container-home .satu .kiri .title h1{
+        font-size: 6vw;
+    }
+
+    .container-home .satu .kiri .body p{
+        font-family: Montsarret;
+        font-size: 3vw;
+    }
+
+    .container-home .satu .kiri .btn-dark{
+        font-size: 10px;
+        width: 50%;
+    }
+
+    .container-home .dua .title h1,
+    .container-home .tiga .title h1,
+    .container-home .empat .title h1,
+    .container-home .lima .title h1,
+    .container-home .tujuh .title h1,
+    .container-home .delapan .title h1{
+        font-size: 15px !important;
+    }
+
+    .container-home .empat,
+    .container-home .lima{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-home .empat .kiri,
+    .container-home .empat .kanan,
+    .container-home .lima .kiri,
+    .container-home .lima .kanan{
+        width: 100%;
+    }
+
+    .container-home .empat .card img,
+    .container-home .lima .card img{
+        height: 30% !important;
+    }
+
+    .container-home .empat .card span,
+    .container-home .lima .card span{
+        font-size: 7px !important;
+    }
+    .container-home .empat .card a,
+    .container-home .lima .card a{
+        font-size: 15px !important;
+    }
+
+    .container-home .empat .sub span,
+    .container-home .lima .sub span{
+        font-size: 10px !important;
+    }
+    .container-home .empat .sub a,
+    .container-home .lima .sub a{
+        font-size: 20px !important;
+    }
+    
+
 }

@@ -78,3 +78,40 @@
     border-radius: 50%;
 }
 
+.footer-slide-resp{
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .footer-slide{
+        display: none;
+    }
+
+    .footer-slide-resp{
+        display: block;
+    }
+
+    .footer-slide-resp .swiper-slide {
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .footer-slide-resp .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+
+    .footer-slide-resp .swiper-slide .kiri {
+        width: 50%;
+    }
+
+    .footer-slide-resp .swiper-slide .kanan {
+        width: 50%;
+    }
+}

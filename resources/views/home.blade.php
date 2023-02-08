@@ -7,9 +7,9 @@
     <div class="satu">
         <div class="kiri">
             <div class="title">
-                <h1>Selamat datang</h1>
-                <h1>di halaman website</h1>
-                <h1>SMK NEGRI 3 Surabaya</h1>
+                <h1>Selamat datang
+                di halaman website
+                SMK NEGRI 3 Surabaya</h1>
             </div>
 
             <div class="body">
@@ -21,6 +21,7 @@
             </div>
             <a href="#" class="btn btn-dark">Contact us</a>
         </div>
+
         <div class="kanan">
             <img src="{{ url('assets/img/slider/slide2.jpeg') }}" alt="">
         </div>
@@ -396,6 +397,7 @@
                         </div>
 
                     </div>
+
                     <div class="swiper-slide">
                         <div class="kiri">
                             <div class="name">
@@ -409,6 +411,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="swiper-slide">
                         <div class="kiri">
                             <div class="name">
@@ -463,6 +466,96 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="footer-slide-resp">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="kiri">
+                            <div class="name">
+                                Dra. CYNTHIA CORINA EVA P
+                            </div>
+                        </div>
+
+                        <div class="kanan">
+                            <a href="#" class="btn">
+                                <img src="{{ url('assets/img/gtk/gtk.png') }}" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="kiri">
+                            <div class="name">
+                                TRI MURNI LESTARI S.Pd
+                            </div>
+                        </div>
+
+                        <div class="kanan">
+                            <a href="#" class="btn">
+                                <img src="{{ url('assets/img/gtk/gtk.png') }}" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="kiri">
+                            <div class="name">
+                                MOHAMMAD PITONO
+                            </div>
+                        </div>
+
+                        <div class="kanan">
+                            <a href="#" class="btn">
+                                <img src="{{ url('assets/img/gtk/gtk.png') }}" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="kiri">
+                            <div class="name">
+                                WIRAYUDO S.Pd
+                            </div>
+                        </div>
+
+                        <div class="kanan">
+                            <a href="#" class="btn">
+                                <img src="{{ url('assets/img/gtk/gtk.png') }}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="kiri">
+                            <div class="name">
+                                Dra. ETTY WIJAYATI
+                            </div>
+                        </div>
+
+                        <div class="kanan">
+                            <a href="#" class="btn">
+                                <img src="{{ url('assets/img/gtk/gtk.png') }}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="kiri">
+                            <div class="name">
+                                ATIK MARTINI S.Pd
+                            </div>
+                        </div>
+
+                        <div class="kanan">
+                            <a href="#" class="btn">
+                                <img src="{{ url('assets/img/gtk/gtk.png') }}" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
 
